@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar Email</title>
+    <script src="eje26.js" defer></script> 
+</head>
+<body>
+    <h2>Formulario de Validación de Email</h2>
+
+    <form id="formulario" onsubmit="return validarCorreo()">
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" required>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <p id="mensajeError" style="display: none; color: red;">Por favor, ingresa un correo electrónico válido.</p>
+</body>
+</html>

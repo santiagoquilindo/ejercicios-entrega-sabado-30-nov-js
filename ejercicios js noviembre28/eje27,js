@@ -1,0 +1,6 @@
+let colores = document.getElementById("colores");
+function cambiarColor() {
+    let colorSeleccionado = colores.value;
+    document.body.style.backgroundColor = colorSeleccionado;
+}
+colores.onchange = cambiarColor;
